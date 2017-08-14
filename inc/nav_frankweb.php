@@ -16,6 +16,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Inicio</a></li>
             <li><a href="#about">Servicios</a></li>
+            <li><a href="#about">Que hacemos</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>

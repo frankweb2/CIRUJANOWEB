@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
   color: #5a5a5a;
 }
 h1, h2{
@@ -77,6 +77,13 @@ p{
   padding-right: 15px;
   padding-left: 15px;
 
+}
+.navbar-inverse .navbar-nav>li>a{
+  background-color: #FF6D05;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -350,8 +357,32 @@ div.container.marketing.contenido_dos{
 
   color:white;
 }
+/*FOOTER*/
+.contenido_cuatro{
+  background-color: #E74C3C;
+  color:#fff;
+  height: 100vh;
+  min-height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenido_cuatro .overlay {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: rgb(231, 76, 60);
+    opacity: 0.4;
+    transition: all 0.2s ease-out;
+}
+footer{
+  position: relative;
+  z-index: 200;
+}
 
-
+footer div.contenido_footer{
+  margin-top: 40px;
+}
 
 /*FONTAWESOME*/
 .fa-paint-brush{
@@ -366,11 +397,11 @@ div.container.marketing.contenido_dos{
 .fa-users{
   color: #b3e000;
 }
+
 .contenido_cuatro{
   height: 300px;
-
-
 }
+
 /*EFECTOS*/
 .fast {
     -moz-animation-duration: 1s;

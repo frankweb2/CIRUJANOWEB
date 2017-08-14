@@ -11,20 +11,37 @@
       </div>
  </div>
 </div>
-<div class="slider_frankweb contenido_cuatro">
+<div class="slider_frankweb contenido_cuatro" style="background-image: url('dist/img/lentes_frankweb.jpg');">
+
 <!-- FOOTER -->
 <footer>
-  <address>
-    <strong>FRANKWEB</strong><br>
+  <div class="container">
+    <div class="row contenido_footer">
+      <div class="col-md-6">
+        <h2>CONTACTO</h2>
+      </div>
+      <div class="col-md-3">
+        <h2>FRANKWEB</h2>
+        <br>
+        <address>
+          <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
 
-    Santiago, RM<br>
-    <abbr title="Phone">Celular:</abbr> (+569) 456-7890
-  </address>
-
-  <address>
-    <strong>Frank Morales</strong><br>
-    <a href="mailto:fmorales@frankweb.cl?subject=feedback">fmorales@frankweb.cl</a><br>
-  </address>
+        </address>
+      </div>
+      <div class="col-md-3 col-md-pull-1">
+        <br>
+        <address>
+          <i class="fa fa-map-marker" aria-hidden="true"></i> Santiago, RM<br>
+          <i class="fa fa-mobile" aria-hidden="true"></i> <abbr title="Phone">Celular:</abbr> (+569) 456-7890
+        </address>
+        <address>
+          <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:fmorales@frankweb.cl?subject=feedback">fmorales@frankweb.cl</a><br>
+        </address>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </div><!-- /.container -->
